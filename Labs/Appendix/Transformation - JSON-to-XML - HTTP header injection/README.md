@@ -134,7 +134,7 @@ Our approach will be to implement four policies.  The first will read the Accept
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<AssignMessage continueOnError="false" enabled="true" name="Remove-Accept-Header">
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Remove-Accept-Header">
     <DisplayName>Remove Accept Header</DisplayName>
     <Set>
         <Headers>
